@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const Comments = mongoose.model('Comments', {
-    name: Integer,
+    name: Number,
     comment: String,
     date: Date
 })
